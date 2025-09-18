@@ -50,6 +50,7 @@ OFFICIAL_PACKAGES=(
     "base-devel"
     "ntfs-3g"
     "docker-compose"
+    "github-cli"
     "os-prober"
     "libreoffice-still"
 )
