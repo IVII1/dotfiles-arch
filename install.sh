@@ -57,6 +57,8 @@ OFFICIAL_PACKAGES=(
     "os-prober"
     "libreoffice-still"
     "pipewire-pulse"
+    "unrar"
+    "audacious"
 )
 
 print_status "Installing official packages: ${OFFICIAL_PACKAGES[*]}"
