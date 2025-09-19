@@ -59,6 +59,9 @@ OFFICIAL_PACKAGES=(
     "pipewire-pulse"
     "unrar"
     "audacious"
+    "mpv"
+    "unzip"
+    "tar"
 )
 
 print_status "Installing official packages: ${OFFICIAL_PACKAGES[*]}"
@@ -75,10 +78,6 @@ done
 print_status "Enabling Docker service..."
 sudo systemctl enable docker
 sudo systemctl start docker
-
-# Enable Pipewire Pulse service
-print_status "Enabling Pipewire Pulse service..."
-sudo systemctl enable --now pipewire-pulse.service
 
 # Initialize and enable MariaDB
 print_status "Initializing and enabling MariaDB..."
